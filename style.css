@@ -68,15 +68,16 @@ span {
 }
 
 #right-box {
-    border-left: 7px solid;
-    border-radius: 15px;
+    border-left: 7px solid transparent;
     border-image: linear-gradient(blue, skyblue);
+    border-image-slice: 1;
     border-radius: 30px;
 
 }
 
 #left-box {
-    border-left: 7px solid;
+    border-left: 7px solid transparent;
     border-image: linear-gradient(red, hotpink);
-    border-radius: 30px;
+    border-image-slice: 1;
+
 }
