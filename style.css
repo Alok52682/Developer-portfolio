@@ -13,6 +13,13 @@
     padding-bottom: 100px;
 }
 
+.c {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-bottom: 100px;
+}
+
 body {
     font-family: 'Lobster', cursive;
     margin: 0;
@@ -36,7 +43,7 @@ span {
 
 .half-weidth {
     width: 50%;
-    padding-left: 100px;
+    margin-left: 100px;
     padding-top: 10px;
 }
 
@@ -47,4 +54,29 @@ span {
     color: white;
     font-weight: 800;
     border-radius: 6px;
+}
+
+.flex {
+    display: flex;
+}
+
+.box {
+    width: 50%;
+    margin-left: 70px;
+    padding: 10px 50px 100px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#right-box {
+    border-left: 7px solid;
+    border-radius: 15px;
+    border-image: linear-gradient(blue, skyblue);
+    border-radius: 30px;
+
+}
+
+#left-box {
+    border-left: 7px solid;
+    border-image: linear-gradient(red, hotpink);
+    border-radius: 30px;
 }
