@@ -71,7 +71,8 @@ span {
     border-left: 7px solid transparent;
     border-image: linear-gradient(blue, skyblue);
     border-image-slice: 1;
-    border-radius: 30px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 
 }
 
@@ -79,5 +80,6 @@ span {
     border-left: 7px solid transparent;
     border-image: linear-gradient(red, hotpink);
     border-image-slice: 1;
-
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
